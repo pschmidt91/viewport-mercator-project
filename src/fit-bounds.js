@@ -73,7 +73,7 @@ export default function fitBounds({
     height - padding.top - padding.bottom - Math.abs(offset[1]) * 2
   ];
 
-  assert(targetSize[0] > 0 && targetSize[1] > 0);
+  //assert(targetSize[0] > 0 && targetSize[1] > 0);
 
   // scale = screen pixels per unit on the Web Mercator plane
   const scaleX = targetSize[0] / size[0];
